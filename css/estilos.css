@@ -37,7 +37,7 @@ button:hover{
 .color{color: rgb(255, 0, 0);}
 
 header{
-    background-color: rgb(245, 245, 245);
+    background-color: rgba(245, 245, 245, 0.24);
 }
 
 header .logo{
@@ -46,6 +46,11 @@ header .logo{
     font-weight: bold;
     color: red;
     font-size: 1.8em;
+
+}
+
+header .logo-img{
+    height: 90px;
 }
 
 header .container{
@@ -79,13 +84,12 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0, 0, 0, 0.716),
+        rgba(0, 0, 0, 0.716)
     )
-    ,url(img/IMG-20200519-WA0043.jpg);
+    ,url(img/fondo-principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -132,7 +136,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/desinsectacion.jpg);
+    ,url(img/desinsectacion-mini.jpg);
 }
 
 .carta:nth-child(2){
@@ -141,7 +145,7 @@ header a:hover{
         rgb(0, 0, 0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/desratizacion.jpg);
+    ,url(img/desratizacion-mini.jpg);
 }
 
 .carta:nth-child(3){
@@ -150,7 +154,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(img/desinfeccion.jpg);
+    ,url(img/desinfeccion-mini.jpg);
 }
 
 #presupuesto{
@@ -159,17 +163,17 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: rgb(0, 0, 0);
     color: white;
-    height: 80vh;
+    height: 90vh;
 }
 
 #presupuesto h2{
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 #presupuesto button{
-    font-size: 1.8vw;
+    font-size: 2vw;
 }
 
 footer{
@@ -179,7 +183,7 @@ footer{
 footer p{
     margin: 0;
     padding: 12px;
-    color: rgb(100,100,100);
+    color: rgb(100, 100, 100);
 }
 
 footer .container{
@@ -287,7 +291,7 @@ footer .container{
     }
 
     #presupuesto h2{
-        font-size: 4.5em;
+        font-size: 5em;
     }
 
     #presupuesto button{
