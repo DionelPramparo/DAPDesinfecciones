@@ -165,15 +165,15 @@ header a:hover{
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 90vh;
+    height: 85vh;
 }
 
 #presupuesto h2{
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 #presupuesto button{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 footer{
